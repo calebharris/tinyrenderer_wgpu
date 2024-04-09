@@ -20,17 +20,17 @@
 
 title: Exploring tinyrenderer with wgpu
 email: caleb.harris@mac.com
+author: Caleb Harris
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Learning about both the basics of 3D rendering and how to do it with wgpu at
+  the same time. And for some reason blogging about it.
 baseurl: "/tinyrenderer_wgpu" # the subpath of your site, e.g. /blog
 url: "calebharris.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: calebmharris
 github_username:  calebharris
 
 # Build settings
-theme: minima
+theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
 

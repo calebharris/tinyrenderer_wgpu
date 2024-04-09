@@ -1,0 +1,22 @@
+.grid_wrapper {
+    display: grid;
+    grid-template-areas:
+      'main_content'
+      'left_sidebar';
+  }
+  
+  .grid_wrapper > .main_content {
+    grid-area: main_content;
+  }
+  
+  .grid_wrapper > .left_sidebar {
+    grid-area: left_sidebar;
+  }
+  
+  @media (min-width: 768px) {
+    .grid_wrapper {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-areas:
+        'left_sidebar main_content main_content';
+    }
+  }
