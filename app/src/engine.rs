@@ -21,7 +21,6 @@ use wgpu::{
 use winit::{dpi::PhysicalSize, window::Window};
 
 use crate::resources::load_texture;
-use crate::texture::Texture;
 
 const MODEL_VERTEX_ATTRIBUTES: [VertexAttribute; 2] =
     vertex_attr_array![0 => Float32x3, 1 => Float32x2];

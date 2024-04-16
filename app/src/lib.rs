@@ -36,7 +36,7 @@ pub async fn run() {
         web_sys::window()
             .and_then(|win| win.document())
             .and_then(|doc| {
-                let dst = doc.get_element_by_id("wasm-example")?;
+                let dst = doc.get_element_by_id("tr-wgpu-intro")?;
                 let canvas = web_sys::Element::from(window.canvas().unwrap());
                 dst.append_child(&canvas).ok()?;
                 Some(())
